@@ -28,3 +28,9 @@ function appendKitten(name){
   arr.push("Broom");
   return arr;
 }
+
+function prependKitten(name){
+  var arr = ["Milo","Otis","Garfield"];
+  arr.shift("Broom");
+  return arr;
+}
