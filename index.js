@@ -44,6 +44,5 @@ function removeLastKitten(){
 
 function removeFirstKitten(){
   var arr = ["Milo","Otis","Garfield"];
-  arr.slice(0);
-  return arr;
+ 
 }
