@@ -41,3 +41,9 @@ function removeLastKitten(){
  return kittens;
   
 }
+
+function removeFirstKitten(){
+  const kittens ["Milo","Otis","Garfield"];
+  kittens.splice(0);
+  return kittens;
+}
