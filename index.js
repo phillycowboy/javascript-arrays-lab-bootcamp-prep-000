@@ -30,7 +30,6 @@ function appendKitten(name){
 }
 
 function prependKitten(name){
-  var arr = ["Otis","Garfield"];
-  arr.shift("Arnold","Milo");
-  return arr;
+kittens.unshift("Arnold");
+  return kittens;
 }
