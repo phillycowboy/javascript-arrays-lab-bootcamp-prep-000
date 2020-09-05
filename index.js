@@ -43,7 +43,7 @@ function removeLastKitten(){
 }
 
 function removeFirstKitten(){
-  const kittens = ["Milo","Otis","Garfield"];
-  kittens.slice(-2);
-  return kittens;
+  var arr = ["Milo","Otis","Garfield"];
+  arr.slice(-2);
+  return arr;
 }
