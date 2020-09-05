@@ -34,3 +34,8 @@ function prependKitten(name){
   arr.unshift("Arnold");
   return arr;
 }
+
+function removeLastKitten(){
+  kittens.slice(3);
+  return kittens;
+}
