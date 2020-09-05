@@ -31,6 +31,6 @@ function appendKitten(name){
 
 function prependKitten(name){
   var arr = ["Milo","Otis","Garfield"];
-  arr.shift("Broom");
+  arr.shift("Arnold");
   return arr;
 }
