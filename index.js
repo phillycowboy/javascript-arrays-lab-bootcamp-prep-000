@@ -37,6 +37,7 @@ function prependKitten(name){
 
 function removeLastKitten(){
  const kittens=["Milo","Otis","Garfield"];
- 
-  return kittens;
+ kittens.splice(2);
+ return kittens;
+  
 }
